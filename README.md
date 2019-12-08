@@ -1,3 +1,3 @@
-# Evaluation of Bird-ROI-Detection-BROID-
+# Evaluation of Bird-ROI-Detection-
 
 # 
