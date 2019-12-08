@@ -8,14 +8,18 @@ The value of dice coef varies from 0 to 1.
 BOUNDING BOXES:
 =========================
 
-Each image contains a single bounding box label.  boundingbox_gt.txt contain groundtruth bounding box labels and boundingbox_pred.txt contain the detected boundingbox labels, with each line corresponding to one image in the format: 
+Each image contains a single bounding box label.  
 
-<image_id> <x> <y> <width> <height>
+boundingbox_gt.txt contain groundtruth bounding box labels and boundingbox_pred.txt contain the detected boundingbox labels, with each line corresponding to one image in the format: 
 
-where <image_id> corresponds to the ID of each image, and <x>, <y>, <width>, and <height> are all measured in pixels
+        <image_id> <x> <y> <width> <height>
+
+    where <image_id> corresponds to the ID of each image, and <x>, <y>, <width>, and <height> are all measured in pixels
 
 "Blue" - groundtruth bounding box
+
 "blue" - detected bounding box
+
 "red" - ROI intersection of groundtruth and detected bounding box
 
 # Description
