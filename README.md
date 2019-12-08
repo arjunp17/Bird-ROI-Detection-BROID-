@@ -18,7 +18,7 @@ boundingbox_gt.txt contain groundtruth bounding box labels and boundingbox_pred.
 
 "Blue" - groundtruth bounding box
 
-"blue" - detected bounding box
+"green" - detected bounding box
 
 "red" - ROI intersection of groundtruth and detected bounding box
 
